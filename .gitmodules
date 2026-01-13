@@ -1,0 +1,3 @@
+[submodule "resources/moi-sprint"]
+	path = resources/moi-sprint
+	url = https://github.com/moi-foundation/moi-sprint.git
