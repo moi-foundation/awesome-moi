@@ -2,118 +2,87 @@
 
 > **The curated resource hub for building the next generation of decentralized applications on the MOI L1 blockchain.**
 
-This repository is your essential narrative tool and instructional guide for transitioning from the limitations of legacy, app-centric networks to MOI's powerful **Participant-Centric** model.
+This repository is your essential guide for transitioning from legacy, app-centric networks to MOI's powerful **Participant-Centric** model.
 
-## 🌟 Introduction
+## 🎯 Start Here: MOI Sprint
 
-Traditional blockchain development forces applications into a single global state, sacrificing scale and security. MOI fundamentally shifts this paradigm by giving every participant their own independent chain and enabling parallel, context-aware interactions.
+**[MOI Sprint](./resources/moi-sprint/)** is your hands-on learning path for building on MOI.
 
-## 📚 Table of Contents
+A structured, mission-based tutorial series that takes you from zero to deploying real applications. Each chapter builds on the previous, giving you practical experience with MOI's unique architecture.
 
-### [0. Essentials](./essentials/)
-Source of Truth Resources: Krama paper, Whitepaper, Yellow Paper, Mainnet and Testnet links and Statuses. Community: Discord, Forum, X, Telegram links.
+| Chapter | Topic | What You'll Build |
+|---------|-------|-------------------|
+| [Chapter 1](./resources/moi-sprint/Chapter%201%20-%20Native%20Assets.md) | Native Assets | Token swap app using MAS0 assets |
+| Chapter 2 | *Coming Soon* | Soulbound tokens with Coco |
+| Chapter 3 | *Coming Soon* | Full-stack DiApp |
 
-### [1. COCO Language](./coco-language/)
-- Compilers & Toolchains: Links to the COCO compiler and version manager
-- Editor Support: VS Code extensions, syntax highlighters, snippets
-- Language Tutorials: From "Hello World" to advanced syntax guides
-- Standard Library: Standard lib for math, strings, etc.
+**No smart contracts needed for basic assets.** MOI's native asset system lets you create, transfer, mint, and burn tokens at the protocol level.
 
-### [2. Client Libraries](./client-libraries/)
-- **JavaScript**: "js-moi-sdk" specific examples (e.g., "Signing a Transaction", "Listening to the Provider")
-- **Go/Python/Rust**: Placeholders for future SDKs
-- **Utilities**: Standalone libraries for MOI-specific encoding/hashing (if separate from the main SDK) such as js-polo
+---
 
-### [3. Developer Tools](./developer-tools/)
-- Voyage RPC: Configuration guides, Postman collections for RPC testing
-- CLI Tools: Tools for account generation, manifest creation, and deploy logic
-- Localnet/Devnet: Docker images or scripts to spin up a local MOI node for testing
-- Explorers: Links to the official explorer and community-built viewers
+## 📚 Resources
 
-### [4. Logic (Pisa)](./logic/)
-- **Basics**: Simple logic (Counters, Hello World)
-- **Asset Management (MAS)**:
-  - Fungible Tokens: Implementing standard token logic in COCO
-  - Non-Fungible Assets: Unique asset logic
-  - RWA and Other assets
-- **Context & Governance (The "MOI Special")**:
-  - Context-Aware Logic: Examples showing logic that behaves differently based on who is calling it or the context of the interaction
-  - Policy Enforcement: Logic that enforces compliance (e.g., "Department-specific rules")
-  - Example: "Voting App: Solidity Style (Global Count) vs. MOI Style (Participant Local Votes aggregated)"
-- **Participant Storage**: Examples showing how to read/write data to a participant's local chain state (vs. global state)
+### [Essentials](./essentials/)
+Source of truth: Documentation, Vision Paper, Whitepaper, and community links (Discord, X, Telegram).
 
-### [5. Solved Patterns](./solved-patterns/)
-Code examples demonstrating architectural fixes to historic blockchain problems:
-- The Re-Entrancy Fix (The DAO Hack)
-- The Scalability Fix (The CryptoKitties Incident)
-- The Compliance Fix (The Tornado Cash Dilemma)
+### [JS-MOI-SDK](./js-sdk/)
+The JavaScript/TypeScript library for interacting with MOI. Create interactions, manage accounts, deploy logic, and work with native assets.
 
-### [6. Current Web3 Reimagined](./web3-reimagined/)
-Serves as the public demo, showing successful implementations of popular Web3 use cases rebuilt on MOI:
-- Decentralized Exchange (DEX): Uniswap, Curve
-- NFT Marketplace: Opensea
-- Decentralized Identity (DID): ENS, Galxe
-- Stablecoins: USDT(Tether), DAI
+### [Coco Language](./coco-language/)
+MOI's smart contract language for custom on-chain logic. Use when you need behavior beyond native assets—swaps, vaults, permissions, soulbound tokens.
 
-### [7. DApp Patterns](./dapp-patterns/)
-Full-stack examples (COCO Logic + JS Frontend):
-- Identity & Auth: Using MOI for decentralized identity
-- DeFi / Finance: Simple swap or custodial logic
-- Social / Chat: DApps that leverage "Hyper-Local Finality" for fast interaction
-- Governance, Agentic AI and more
+### [Developer Tools](./developer-tools/)
+Everything you need to build:
+- **[Voyage Explorer](https://voyage.moi.technology)** - Block explorer
+- **[Logic Playground](https://voyage.moi.technology/lab/logic/?network=babylon&ix_type=11)** - Deploy & test Coco logic
+- **[Asset Playground](https://voyage.moi.technology/lab/asset/?network=babylon&ix_type=1)** - Create test tokens
+- **[Testnet Faucet](https://voyage.moi.technology/faucet/)** - Get 20K KMOI
+- **IOme Wallet** - Your MOI identity
 
-### [8. Nodes & Infrastructure](./nodes-infrastructure/)
-- Node Setup: Guides for running a Guardian or Validator node
-- Monitoring: Grafana dashboards, Prometheus exporters for node health
+### [Solved Patterns](./solved-patterns/)
+How MOI fixes historic blockchain problems:
+- Re-Entrancy (The DAO Hack)
+- Scalability (CryptoKitties)
+- Compliance (Tornado Cash)
 
-## 🚀 Quick Start
+### [Web3 Reimagined](./web3-reimagined/)
+Popular Web3 use cases rebuilt on MOI: DEX, NFT Marketplace, DID, Stablecoins.
 
-1. **New to MOI?** Start with [Essentials](./essentials/) for foundational resources
-2. **Want to code?** Check out [COCO Language](./coco-language/) tutorials
-3. **Building a dApp?** Explore [DApp Patterns](./dapp-patterns/) for full-stack examples
-4. **Understanding MOI's advantages?** See [Solved Patterns](./solved-patterns/) for architectural solutions
+---
 
-## 📖 Resources
+## 🔗 Quick Links
 
-### Learning Paths
-- **[MOI Sprint](./resources/moi-sprint/)** - Starting point for developers to learn how to build on MOI's contextual compute network
-- **[tSwap Tutorial](./resources/tswap/TUTORIAL.md)** - Your first DiApp on MOI
+| Resource | Link |
+|----------|------|
+| MOI Docs | [docs.moi.technology](https://docs.moi.technology) |
+| JS-MOI-SDK | [js-moi-sdk.docs.moi.technology](https://js-moi-sdk.docs.moi.technology) |
+| Coco Language | [cocolang.dev](https://cocolang.dev) |
+| Voyage Explorer | [voyage.moi.technology](https://voyage.moi.technology) |
+| Discord | [discord.gg/K43AC34v](https://discord.gg/K43AC34v) |
+| X (Twitter) | [x.com/MOI_Tech](https://x.com/MOI_Tech) |
 
-### Documentation
-- [MOI Documentation](https://docs.moi.technology)
-- [JS-MOI-SDK Docs](https://js-moi-sdk.docs.moi.technology)
-- [Coco Language Docs](https://cocolang.dev)
+---
 
-### Tools
-- [Voyage Explorer](https://voyage.moi.technology) - Block explorer and wallet
+## 🌟 Why MOI?
+
+Traditional blockchains force all applications into a **single global state**—everyone waits in line for everyone else. This causes congestion, high fees, and scaling limits.
+
+MOI introduces the **Interaction State Machine (ISM)**:
+- **Parallel Execution** - Unrelated transactions don't block each other
+- **Native Assets** - Protocol-level tokens without smart contracts
+- **Participant-Centric** - Each user has their own chain state
+- **Horizontal Scaling** - More nodes = faster network
+
+---
 
 ## 🤝 Contributing
 
-We welcome contributions! This is a curated resource hub, and your additions help the entire MOI developer community.
+We welcome contributions! Fork, add your resource/tutorial, and submit a PR.
 
-1. Fork the repository
-2. Create a feature branch
-3. Add your resource/tutorial/example
-4. Submit a pull request
-
-Please ensure your contributions:
-- Follow the existing structure
-- Include clear documentation
-- Provide working examples where applicable
-- Link to official resources when possible
-
-## 💬 Community
-
-- [Discord](https://discord.gg/GkP7mDw5)
-- [GitHub Discussions](https://github.com/moi-foundation/awesome-moi/discussions)
-- [Forum](https://forum.moi.technology) - [Link TBD]
-- [X (Twitter)](https://x.com/moi_technology) - [Link TBD]
-- [Telegram](https://t.me/moi_technology) - [Link TBD]
+---
 
 ## 📄 License
 
-MIT License - see [LICENSE](./LICENSE) file for details.
-
----
+MIT License - see [LICENSE](./LICENSE)
 
 **Built with ❤️ by the MOI Foundation**
