@@ -21,8 +21,8 @@ A structured, hands-on learning path for building on MOI. Each chapter walks you
 | Chapter | Title |
 |---------|-------|
 | [Chapter 1](./resources/moi-sprint/Chapter%201%20-%20Native%20Assets.md) | Intro to Native Assets (Build a Fixed Rate Swap) |
-| [Chapter 2](./resources/moi-sprint/Chapter%202%20-%20Soulbound%20Tokens.md) | Soulbound Tokens — *Coming Soon* |
-| [Chapter 3](./resources/moi-sprint/Chapter%203%20-%20Full-Stack%20DiApp.md) | Full-Stack DiApp — *Coming Soon* |
+| Chapter 2 | Soulbound Tokens — *Coming Soon* |
+| Chapter 3 | Full-Stack DiApp — *Coming Soon* |
 
 ---
 
@@ -56,3 +56,7 @@ We welcome contributions! Fork the repo, add your resource, and submit a PR.
 ## License
 
 MIT — [LICENSE](./LICENSE)
+
+---
+
+**Built with ❤️ by the MOI Team**
