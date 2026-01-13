@@ -1,88 +1,141 @@
 # Awesome MOI
 
-> **The curated resource hub for building the next generation of decentralized applications on the MOI L1 blockchain.**
+A curated collection of resources, tutorials, and tools for building on [MOI](https://moi.technology) — the participant-centric L1 blockchain.
 
-This repository is your essential guide for transitioning from legacy, app-centric networks to MOI's powerful **Participant-Centric** model.
+## What is Awesome MOI?
 
-## 🎯 Start Here: MOI Sprint
+This repository is your one-stop resource hub for MOI development. Whether you're exploring the ecosystem, learning to build, or looking for reference implementations — everything you need is organized here.
 
-**[MOI Sprint](./resources/moi-sprint/)** is your hands-on learning path for building on MOI.
-
-A structured, mission-based tutorial series that takes you from zero to deploying real applications. Each chapter builds on the previous, giving you practical experience with MOI's unique architecture.
-
-| Chapter | Topic | What You'll Build |
-|---------|-------|-------------------|
-| [Chapter 1](./resources/moi-sprint/Chapter%201%20-%20Native%20Assets.md) | Native Assets | Token swap app using MAS0 assets |
-| Chapter 2 | *Coming Soon* | Soulbound tokens with Coco |
-| Chapter 3 | *Coming Soon* | Full-stack DiApp |
-
-**No smart contracts needed for basic assets.** MOI's native asset system lets you create, transfer, mint, and burn tokens at the protocol level.
+**What's inside:**
+- 📖 Official documentation and papers
+- 🛠️ SDKs, tools, and playgrounds
+- 📚 Step-by-step tutorials (MOI Sprint)
+- 🧩 Patterns and reference implementations
 
 ---
 
-## 📚 Resources
+## Table of Contents
 
-### [Essentials](./essentials/)
-Source of truth: Documentation, Vision Paper, Whitepaper, and community links (Discord, X, Telegram).
-
-### [JS-MOI-SDK](./js-sdk/)
-The JavaScript/TypeScript library for interacting with MOI. Create interactions, manage accounts, deploy logic, and work with native assets.
-
-### [Coco Language](./coco-language/)
-MOI's smart contract language for custom on-chain logic. Use when you need behavior beyond native assets—swaps, vaults, permissions, soulbound tokens.
-
-### [Developer Tools](./developer-tools/)
-Everything you need to build:
-- **[Voyage Explorer](https://voyage.moi.technology)** - Block explorer
-- **[Logic Playground](https://voyage.moi.technology/lab/logic/?network=babylon&ix_type=11)** - Deploy & test Coco logic
-- **[Asset Playground](https://voyage.moi.technology/lab/asset/?network=babylon&ix_type=1)** - Create test tokens
-- **[Testnet Faucet](https://voyage.moi.technology/faucet/)** - Get 20K KMOI
-- **IOme Wallet** - Your MOI identity
-
-### [Solved Patterns](./solved-patterns/)
-How MOI fixes historic blockchain problems:
-- Re-Entrancy (The DAO Hack)
-- Scalability (CryptoKitties)
-- Compliance (Tornado Cash)
-
-### [Web3 Reimagined](./web3-reimagined/)
-Popular Web3 use cases rebuilt on MOI: DEX, NFT Marketplace, DID, Stablecoins.
+1. [MOI Sprint](#-moi-sprint) — Hands-on tutorials
+2. [Essentials](#-essentials) — Docs, papers, community
+3. [JS-MOI-SDK](#-js-moi-sdk) — JavaScript library
+4. [Coco Language](#-coco-language) — Smart contract language
+5. [Developer Tools](#-developer-tools) — Voyage, playgrounds, faucet
+6. [Patterns](#-patterns) — Solved problems & Web3 reimagined
 
 ---
 
-## 🔗 Quick Links
+## 🚀 MOI Sprint
+
+A structured, hands-on learning path for building on MOI. Each chapter walks you through a real project.
+
+| Chapter | Title | Description |
+|---------|-------|-------------|
+| [Chapter 1](./resources/moi-sprint/Chapter%201%20-%20Native%20Assets.md) | Intro to Native Assets | Build a Fixed Rate Swap on MOI |
+| Chapter 2 | *Coming Soon* | Soulbound Tokens with Coco |
+| Chapter 3 | *Coming Soon* | Full-Stack DiApp |
+
+📁 [View all chapters](./resources/moi-sprint/)
+
+---
+
+## 📖 Essentials
+
+Core resources and community links.
 
 | Resource | Link |
 |----------|------|
-| MOI Docs | [docs.moi.technology](https://docs.moi.technology) |
-| JS-MOI-SDK | [js-moi-sdk.docs.moi.technology](https://js-moi-sdk.docs.moi.technology) |
-| Coco Language | [cocolang.dev](https://cocolang.dev) |
-| Voyage Explorer | [voyage.moi.technology](https://voyage.moi.technology) |
+| MOI Documentation | [docs.moi.technology](https://docs.moi.technology) |
+| Vision Paper | [On the Truth of Happiness](https://papers.moi.technology/docs/on-the-truth-of-happiness) |
+| Whitepaper | [Lite Paper](https://moi.technology/docs/lite-paper.pdf) |
+| Concept Paper | [Interaction State Machine](https://aikrish.medium.com/interaction-state-machine-50b3ef92a0e7) |
 | Discord | [discord.gg/K43AC34v](https://discord.gg/K43AC34v) |
 | X (Twitter) | [x.com/MOI_Tech](https://x.com/MOI_Tech) |
+| Telegram | [t.me/moi_tech](https://t.me/moi_tech) |
+
+📁 [View section](./essentials/)
 
 ---
 
-## 🌟 Why MOI?
+## 🛠️ JS-MOI-SDK
 
-Traditional blockchains force all applications into a **single global state**—everyone waits in line for everyone else. This causes congestion, high fees, and scaling limits.
+The official JavaScript/TypeScript SDK for MOI.
 
-MOI introduces the **Interaction State Machine (ISM)**:
-- **Parallel Execution** - Unrelated transactions don't block each other
-- **Native Assets** - Protocol-level tokens without smart contracts
-- **Participant-Centric** - Each user has their own chain state
-- **Horizontal Scaling** - More nodes = faster network
+- Create, sign, and send interactions
+- Manage accounts and balances
+- Deploy and interact with logic
+- Work with native assets (MAS0, MAS1, MAS2)
+
+| Resource | Link |
+|----------|------|
+| Documentation | [js-moi-sdk.docs.moi.technology](https://js-moi-sdk.docs.moi.technology) |
+| Examples | [github.com/sarvalabs/js-moi-examples](https://github.com/sarvalabs/js-moi-examples) |
+| npm | `npm install js-moi-sdk` |
+
+📁 [View section](./js-sdk/)
 
 ---
 
-## 🤝 Contributing
+## 🔷 Coco Language
 
-We welcome contributions! Fork, add your resource/tutorial, and submit a PR.
+MOI's smart contract language for custom on-chain logic.
+
+**When to use Coco:**
+- Token swaps and DEX logic
+- Vaults, lending, permissions
+- Soulbound tokens (MASX)
+- Any behavior beyond native assets
+
+| Resource | Link |
+|----------|------|
+| Documentation | [cocolang.dev](https://cocolang.dev) |
+| VS Code Extension | [Coco Language Support](https://marketplace.visualstudio.com/items?itemName=sarvalabs.cocolang) |
+| Examples | [github.com/sarvalabs/cocolang-examples](https://github.com/sarvalabs/cocolang-examples) |
+
+📁 [View section](./coco-language/)
 
 ---
 
-## 📄 License
+## 🧰 Developer Tools
 
-MIT License - see [LICENSE](./LICENSE)
+Everything you need to build, test, and deploy.
 
-**Built with ❤️ by the MOI Foundation**
+| Tool | Link | Purpose |
+|------|------|---------|
+| Voyage Explorer | [voyage.moi.technology](https://voyage.moi.technology) | Block explorer |
+| Logic Playground | [voyage.moi.technology/lab/logic](https://voyage.moi.technology/lab/logic/?network=babylon&ix_type=11) | Deploy & test Coco logic |
+| Asset Playground | [voyage.moi.technology/lab/asset](https://voyage.moi.technology/lab/asset/?network=babylon&ix_type=1) | Create & test tokens |
+| Testnet Faucet | [voyage.moi.technology/faucet](https://voyage.moi.technology/faucet/) | Get 20K KMOI |
+
+📁 [View section](./developer-tools/)
+
+---
+
+## 🧩 Patterns
+
+### Solved Patterns
+How MOI's architecture fixes historic blockchain problems:
+- **Re-Entrancy** — The DAO Hack
+- **Scalability** — CryptoKitties
+- **Compliance** — Tornado Cash
+
+📁 [View section](./solved-patterns/)
+
+### Web3 Reimagined
+Popular Web3 use cases rebuilt on MOI:
+- DEX (Uniswap, Curve)
+- NFT Marketplace (OpenSea)
+- Decentralized Identity (ENS, Galxe)
+- Stablecoins (USDT, DAI)
+
+📁 [View section](./web3-reimagined/)
+
+---
+
+## Contributing
+
+We welcome contributions! Fork the repo, add your resource, and submit a PR.
+
+## License
+
+MIT — see [LICENSE](./LICENSE)
