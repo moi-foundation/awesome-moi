@@ -5,19 +5,10 @@ Source of truth resources and community links for the MOI ecosystem.
 ## 📚 Source of Truth Resources
 
 ### Papers & Documentation
-- **Krama Paper** - [Link TBD]
-- **Whitepaper** - [Link TBD]
-- **Yellow Paper** - [Link TBD]
-
-### Network Links
-- **Mainnet**
-  - Status: [Link TBD]
-  - Explorer: [Link TBD]
-  - RPC Endpoint: [Link TBD]
-- **Testnet**
-  - Status: [Link TBD]
-  - Explorer: [Link TBD]
-  - RPC Endpoint: [Link TBD]
+- **MOI Documentation** - [https://docs.moi.technology/]
+- **MOI Vision Paper** - [https://papers.moi.technology/docs/on-the-truth-of-happiness]
+- **Whitepaper** - [https://moi.technology/docs/lite-paper.pdf]
+- **MOI Concept Paper** - [https://aikrish.medium.com/interaction-state-machine-50b3ef92a0e7]
 
 ## 🌐 Community
 
