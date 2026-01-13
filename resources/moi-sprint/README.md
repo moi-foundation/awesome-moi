@@ -8,7 +8,7 @@ Inspired by [Speedrun Ethereum](https://speedrunethereum.com/), MOI Sprint is a 
 
 - **Learn by building** — Every chapter is a real project you can deploy
 - **Progressive difficulty** — Start simple, level up as you go
-- **MOI-native patterns** — Learn the participant-centric way from day one
+- **Scaffolding** — Learn the participant-centric way from day one
 - **Production-ready code** — Not toy examples, actual patterns you'll use
 
 ## 🚀 Get Started
@@ -21,9 +21,6 @@ All chapters, code, and tutorials live in the official MOI Sprint repository:
 
 - Node.js v16+
 - Basic JavaScript knowledge
-- [IOMe Wallet](https://voyage.moi.technology) — Create and fund your wallet
-- [Coco CLI](https://cocolang.dev) — For compiling contracts (later chapters)
-
 ---
 
-Ready to start? Head to the [MOI Sprint repo →](https://github.com/moi-foundation/moi-sprint)
+Ready to start? Head to the [Chapter 1 →](https://github.com/moi-foundation/moi-sprint/tree/main/01-native-assets)
