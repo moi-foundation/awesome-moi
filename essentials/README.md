@@ -5,17 +5,16 @@ Source of truth resources and community links for the MOI ecosystem.
 ## 📚 Source of Truth Resources
 
 ### Papers & Documentation
-- **MOI Documentation** - [https://docs.moi.technology/]
-- **MOI Vision Paper** - [https://papers.moi.technology/docs/on-the-truth-of-happiness]
-- **Whitepaper** - [https://moi.technology/docs/lite-paper.pdf]
-- **MOI Concept Paper** - [https://aikrish.medium.com/interaction-state-machine-50b3ef92a0e7]
+- **[MOI Documentation](https://docs.moi.technology/)** - Core concepts and architecture
+- **[MOI Vision Paper](https://papers.moi.technology/docs/on-the-truth-of-happiness)** - Philosophy and vision
+- **[Whitepaper](https://moi.technology/docs/lite-paper.pdf)** - Technical overview
+- **[MOI Concept Paper](https://aikrish.medium.com/interaction-state-machine-50b3ef92a0e7)** - Interaction State Machine explained
 
 ## 🌐 Community
 
-- **Discord** - [Link TBD]
-- **Forum** - [Link TBD]
-- **X (Twitter)** - [Link TBD]
-- **Telegram** - [Link TBD]
+- **[Discord](https://discord.gg/K43AC34v)** - Developer chat and support
+- **[X (Twitter)](https://x.com/MOI_Tech)** - News and updates
+- **[Telegram](https://t.me/moi_tech)** - Community discussions
 
 ## 📖 Contributing
 

@@ -15,25 +15,21 @@ Essential tools for developing, testing, and deploying on MOI.
 ### Explorer
 - Search any address, asset ID, logic ID, or interaction hash
 - Inspect interaction details, receipts, and participants
-- View fuel usage and execution results
 - Track asset transfers and logic deployments
 
-### Logic Playground
+### [Logic Playground](https://voyage.moi.technology/lab/logic/?network=babylon&ix_type=11)
 - Deploy and test Coco logic without building a full UI
 - Call logic endpoints directly from the browser
-- Debug routines and inspect outputs
-- Iterate quickly on logic development
 
-### Asset Playground
+### [Asset Playground](https://voyage.moi.technology/lab/asset/?network=babylon&ix_type=1)
 - Create test tokens (MAS0, MAS1, MAS2) instantly
 - Copy Asset IDs for use in your app
 - Test asset operations (mint, burn, transfer)
 - Experiment with native assets without code
 
-### Testnet Faucet
+### [Testnet Faucet](https://voyage.moi.technology/faucet/)
 - Get free testnet KMOI (fuel) for development
-- Fund your wallet in seconds
-- No registration required
+- Claim 20K KMOI tokens per request
 
 ## 👤 IOme Wallet
 
@@ -49,7 +45,10 @@ Access IOme directly through [Voyage](https://voyage.moi.technology) - click "Ge
 
 | Tool | URL | Purpose |
 |------|-----|---------|
-| Voyage Explorer | [voyage.moi.technology](https://voyage.moi.technology) | Explorer + Playgrounds |
+| Voyage Explorer | [voyage.moi.technology](https://voyage.moi.technology) | Block explorer |
+| Logic Playground | [voyage.moi.technology/lab/logic](https://voyage.moi.technology/lab/logic/?network=babylon&ix_type=11) | Deploy & test logic |
+| Asset Playground | [voyage.moi.technology/lab/asset](https://voyage.moi.technology/lab/asset/?network=babylon&ix_type=1) | Create & test assets |
+| Testnet Faucet | [voyage.moi.technology/faucet](https://voyage.moi.technology/faucet/) | Get 20K KMOI |
 | MOI Docs | [docs.moi.technology](https://docs.moi.technology) | Core documentation |
 | JS-MOI-SDK | [js-moi-sdk.docs.moi.technology](https://js-moi-sdk.docs.moi.technology) | SDK reference |
 | Coco Docs | [cocolang.dev](https://cocolang.dev) | Language reference |
