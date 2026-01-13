@@ -2,11 +2,21 @@
 
 A curated collection of resources, tutorials, and tools for building on [MOI](https://moi.technology) — the participant-centric L1 blockchain.
 
+## What is Awesome MOI?
+
+This repository is your one-stop resource hub for MOI development. Whether you're exploring the ecosystem, learning to build, or looking for reference implementations — everything you need is organized here.
+
+**What's inside:**
+- 📖 Official documentation and papers
+- 🛠️ SDKs, tools, and playgrounds
+- 📚 Step-by-step tutorials (MOI Sprint)
+- 🧩 Patterns and reference implementations
+
 ---
 
 ## 🚀 MOI Sprint
 
-Hands-on tutorials to learn MOI development.
+A structured, hands-on learning path for building on MOI. Each chapter walks you through a real project.
 
 | Chapter | Title |
 |---------|-------|
@@ -41,7 +51,7 @@ Hands-on tutorials to learn MOI development.
 
 ## Contributing
 
-Fork, add your resource, submit a PR.
+We welcome contributions! Fork the repo, add your resource, and submit a PR.
 
 ## License
 
